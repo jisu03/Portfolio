@@ -383,3 +383,45 @@ p {
   margin-left: -12px;
   margin-top: 8px;
 }
+
+/* Testimonial */
+#testimonials {
+  background-color: var(--color-light-white);
+}
+
+.testimonlias {
+  margin: 40px;
+}
+
+.testimonial {
+  display: flex;
+  margin: 32px 0;
+}
+
+.testimonial__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial__avatar:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.testimonial__avatar:nth-child(Even) {
+  margin-left: 40px;
+}
+
+.testimonial__speech-buble {
+  padding: 18px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.testimonial__speech-buble p {
+  color: var(--color-light-grey);
+}
+
+.testimonial__speech-buble a {
+  color: var(--color-pink);
+}
