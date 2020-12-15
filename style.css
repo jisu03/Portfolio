@@ -230,11 +230,17 @@ p {
 .job {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .job__description {
   margin: 0 16px;
   text-align: left;
+}
+
+.job__logo {
+  width: 100px;
+  height: 100px;
 }
 
 .job__name,
@@ -253,23 +259,24 @@ p {
 /* Skill */
 
 #skills {
-  background-color: var(--color-yellow);
+  background-color: #fffdf7;
 }
 
 .skillset {
   display: flex;
   background-color: var(--color-light-grey);
-  color: var(--color-light-white);
+  color: var(--color-black);
   margin: 20px 0;
 }
 
 .skillset__title {
-  color: var(--color-white);
+  color: var(--color-black);
+  font-weight: bold;
 }
 
 .skillset__left {
   flex-basis: 60%;
-  background-color: var(--color-dark-grey);
+  background-color: #fffbe9;
   padding: 20px 40px;
 }
 
@@ -279,14 +286,27 @@ p {
 
 .skill__bar {
   width: 100%;
-  height: 3px;
-  background-color: var(--color-grey);
+  height: 5px;
+  /* background-color: #f0f0f0; */
+  background-color: #dfdccc;
 }
 
-.skill__value {
+.skill__HTML {
   width: 100%;
-  height: 3px;
-  background-color: var(--color-orange);
+  height: 5px;
+  background-color: #ff3a00;
+}
+
+.skill__CSS {
+  width: 100%;
+  height: 5px;
+  background-color: orange;
+}
+
+.skill__JS {
+  width: 100%;
+  height: 5px;
+  background-color: #00a7ff;
 }
 
 .skill__description {
@@ -299,12 +319,8 @@ p {
 }
 
 .tools {
-  background-color: var(--color-grey);
-}
-
-.tools,
-.etc {
-  padding: 20px;
+  background-color: #dfdccc;
+  padding: 50px;
 }
 
 /* Work */
