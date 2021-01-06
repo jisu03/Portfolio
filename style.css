@@ -244,12 +244,18 @@ p {
 }
 
 .job__name,
-.job__period {
+.job__period,
+.job__details {
   color: var(--color-light-grey);
 }
 
-.job__name {
+.job__name,
+.job__details {
   font-size: var(--font-small);
+}
+
+.job__name {
+  font-weight: var(--weight-bold);
 }
 
 .job__period {
